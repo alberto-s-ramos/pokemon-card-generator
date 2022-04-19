@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  margin: 20px;
+}
+
+button {
+  margin-top: 50px;
+  width: 120px;
+  font-size: 18px;
+  border: 0px;
+  border-radius: 25px;
+  background: linear-gradient(
+    27deg,
+    rgba(113, 49, 49, 1) 0%,
+    rgba(167, 191, 232, 1) 0%,
+    rgba(97, 144, 232, 1) 100%
+  );
+  padding: 10px;
+  color: white;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 2px 5px rgba($color: black, $alpha: 0.5);
+  transition: box-shadow 0.5s;
+
+
+  &:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba($color: black, $alpha: 0.5);
+
+  }
+}
